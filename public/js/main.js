@@ -19,6 +19,7 @@ userForm.addEventListener('submit', async (e) => {
   const data = await res.json();
   console.log(data);
   userForm.elements.username.value = '';
+  exerciseForm.elements._id.value = data._id;
 });
 
 exerciseForm.addEventListener('submit', async (e) => {
