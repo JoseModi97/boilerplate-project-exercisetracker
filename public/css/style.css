@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+  margin: 2em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#log-container {
+  grid-column: 1 / 3;
+}
